@@ -1,0 +1,19 @@
+<soapenv:Envelope 	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:man="http://soa.three.ie/managecreditscoredata_1_0">
+<soapenv:Header>
+<cor:debugFlag xmlns:cor="http://soa.o2.ie/coredata_1_0">true</cor:debugFlag>
+</soapenv:Header>soapenv:Header>
+<soapenv:Body>
+<man:updateCreditScore>
+<man:accountNumber>289108781</man:accountNumber>
+<man:creditScoreDetails>
+<man:serviceCategory>voice</man:serviceCategory>
+<man:decisionCode>RECOMMENDED DEPOSIT</man:decisionCode>
+<man:score>1</man:score>
+<man:numberofDevices>20</man:numberofDevices>
+<man:externalRefNumber>4</man:externalRefNumber>
+<man:agentID>1226</man:agentID>
+<man:isInternationalRoaming>true</man:isInternationalRoaming>
+</man:creditScoreDetails>
+</man:updateCreditScore>
+</soapenv:Body>
+</soapenv:Envelope>

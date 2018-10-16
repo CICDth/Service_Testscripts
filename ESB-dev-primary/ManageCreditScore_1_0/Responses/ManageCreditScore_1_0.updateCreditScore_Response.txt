@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:man="http://soa.three.ie/managecreditscoredata_1_0">
+      <ns0:SOATransactionID xmlns:ns0="http://soa.three.ie/coredata_2_0">39cea23f-809f-4120-9bd0-ac8967c7c105</ns0:SOATransactionID>
+   </soapenv:Header>
+   <soapenv:Body xmlns:man="http://soa.o2.ie/adapter/services/managecreditscoredata_1_0">
+      <man1:updateCreditScoreResponse xmlns:man1="http://soa.three.ie/managecreditscoredata_1_0">
+         <man1:accountNumber>289108781</man1:accountNumber>
+      </man1:updateCreditScoreResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
