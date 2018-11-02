@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:man="http://soa.three.ie/managecreditscoredata_1_0">
+      <ns0:SOATransactionID xmlns:ns0="http://soa.three.ie/coredata_2_0">39cea23f-809f-4120-9bd0-ac8967c7c105</ns0:SOATransactionID>
+   </soapenv:Header>
+   <soapenv:Body xmlns:man="http://soa.o2.ie/adapter/services/managecreditscoredata_1_0">
+      <ns0:createAccount_1Response xmlns:ns0="http://soa.o2.co.uk/managedigitalaccountdetailsdata_1">
+<ns0:Balance>25k</ns0:Balance>
+<ns0:LastTransactionDetails>Time:10.00,Amount:10K,Debit,Status:Success</ns0:LastTransactionDetails>
+</ns0:createAccount_1Response>
+   </soapenv:Body>
+</soapenv:Envelope>

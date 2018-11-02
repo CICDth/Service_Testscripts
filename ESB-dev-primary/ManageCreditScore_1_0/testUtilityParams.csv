@@ -1,3 +1,2 @@
 SERVICE_NAME,REQUEST_TYPE,METHOD_TYPE,CONTENT_TYPE,SERVICE_URI,IsAuthRequired,USER_ID,PASSWORD
-ManageCreditScore_1_0.updateCreditScore,SOAP,GET,XML,http://IP:PORT/services/managecreditscore_1_0,N,,
-
+ManageDigitalAccountDetails_1_0.createAccount_1,SOAP,GET,XML,http://IP:PORT/ManageDigitalAccountDetails_1_0/proxyservices/ManageDigitalAccountDetails_1_0,N,,
