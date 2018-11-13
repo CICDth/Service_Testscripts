@@ -1,0 +1,14 @@
+<soapenv:Envelope 	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:man="http://soa.three.ie/managecreditscoredata_1_0">
+<soapenv:Header>
+<cor:debugFlag xmlns:cor="http://soa.o2.ie/coredata_1_0">true</cor:debugFlag>
+</soapenv:Header>soapenv:Header>
+<soapenv:Body>
+<mtd:createAccount_1 xsi:schemaLocation="http://soa.o2.co.uk/managedigitalaccountdetailsdata_1managedigitalaccountdetailsdata_1_0.xsd" xmlns:mtd="http://soa.o2.co.uk/managedigitalaccountdetailsdata_1" xmlns:xcore="http://soa.o2.co.uk/coredata_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<mtd:AccountNumber>12345</mtd:AccountNumber>
+
+<mtd:BranchName>GNGR</mtd:BranchName>
+
+</mtd:createAccount_1>
+</soapenv:Body>
+</soapenv:Envelope>

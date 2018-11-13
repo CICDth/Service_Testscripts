@@ -1,0 +1,3 @@
+SERVICE_NAME,REQUEST_TYPE,METHOD_TYPE,CONTENT_TYPE,SERVICE_URI,IsAuthRequired,USER_ID,PASSWORD
+ManageCreditScore_1_0.updateCreditScore,SOAP,GET,XML,http://IP:PORT/services/managecreditscore_1_0,N,,
+
