@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+
+   <soapenv:Header xmlns:man="http://soa.o2.co.uk/managedigitalaccountdetailsdata_1">
+
+      <cor:SOATransactionID xmlns:cor="http://soa.o2.co.uk/coredata_1">c7c38d1a-0c41-4e37-b78f-8c0219ad2904</cor:SOATransactionID>
+
+   </soapenv:Header>
+
+   <soapenv:Body xmlns:man="http://soa.o2.co.uk/managedigitalaccountdetailsdata_1">
+
+      <man:createAccount_1Response>
+
+         <man:Balance>25K</man:Balance>
+
+         <man:LastTransactionDetails>Time:10.00,Amount:10K,Debit,Status:Success</man:LastTransactionDetails>
+
+      </man:createAccount_1Response>
+
+   </soapenv:Body>
+
+</soapenv:Envelope>
